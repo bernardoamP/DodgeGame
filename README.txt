@@ -3,7 +3,8 @@ DODGE GAME !!!
 
 Contenu du dossier : 
 
--	Code Source 
+-	Code Source *
+- Documentaion (Guide d'utilisation + Présentation Pygame/ Structure de Code)
 -	DodgeGame (Executable du jeu)
 -	README 
 

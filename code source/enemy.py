@@ -33,11 +33,11 @@ class Enemy(pygame.sprite.Sprite):
         self.attack = 0.5
         self.vitesse = random.randint(5, 12)
         self.image = pygame.image.load('assets/e1.png', )
-        self.image = pygame.transform.scale(self.image, (200, 300))
+        self.image = pygame.transform.scale(self.image, (200, 200))
         self.image = pygame.transform.flip(self.image, True, False)
         self.rect = self.image.get_rect()
         self.rect.x = 1500 + random.randint(0, 300)
-        self.rect.y = 700
+        self.rect.y = 540
 
     def damage(self, amount):
         """

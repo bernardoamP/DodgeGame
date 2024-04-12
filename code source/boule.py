@@ -31,7 +31,7 @@ class Boule(pygame.sprite.Sprite):
         self.image = pygame.transform.scale(self.image, (40, 40))
         self.rect = self.image.get_rect()
         self.rect.x = player.rect.x + 160
-        self.rect.y = player.rect.y + 160
+        self.rect.y = player.rect.y + 90
         self.origin_image = self.image
         self.angle = 0
 

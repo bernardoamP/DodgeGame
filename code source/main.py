@@ -17,34 +17,34 @@ from database_utils import create_score_table
 pygame.init()
 
 pygame.display.set_caption("DODGE GAME")
-screen = pygame.display.set_mode((1920, 1080))
+screen = pygame.display.set_mode((1280, 720))
 
 background = pygame.image.load('assets/wallhaven-l358l2.png')
 
-new_width = 1920
-new_height = 1080
+new_width = 1280
+new_height = 720
 
 background = pygame.transform.scale(background, (new_width, new_height))
 
-new_width = int(1920 * 1.35)
-new_height = int(650 * 1.35)
+new_width = int(1280 * 1.35)
+new_height = int(720 * 1.35)
 
 banner = pygame.image.load('assets/banner.png')
-banner = pygame.transform.scale(banner, (500, 500))
+banner = pygame.transform.scale(banner, (400, 400))
 banner_rect = banner.get_rect()
-banner_rect.x = screen.get_width() / 2.7
-banner_rect.y = screen.get_width() / 15
+banner_rect.x = screen.get_width() / 2.8
+banner_rect.y = screen.get_width() / 40
 
 quit_button = pygame.image.load('assets/bouton_exit.png')
-quit_button = pygame.transform.scale(quit_button, (120, 120))
+quit_button = pygame.transform.scale(quit_button, (80, 80))
 quit_button_rect = quit_button.get_rect()
-quit_button_rect.x = screen.get_width() - quit_button.get_width() - 200
-quit_button_rect.y = screen.get_width() / 18
+quit_button_rect.x = screen.get_width() - quit_button.get_width() - 10
+quit_button_rect.y = screen.get_width() / 140
 
 play_button = pygame.image.load('assets/button.png')
 play_button = pygame.transform.scale(play_button, (400, 150))
 play_button_rect = play_button.get_rect()
-play_button_rect.x = screen.get_width() / 2.59
+play_button_rect.x = screen.get_width() / 2.88
 play_button_rect.y = screen.get_width() / 3.2
 
 clock = pygame.time.Clock()

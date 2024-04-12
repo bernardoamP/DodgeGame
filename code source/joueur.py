@@ -37,10 +37,10 @@ class Player(pygame.sprite.Sprite):
         self.vitesse = 5
         self.all_boule = pygame.sprite.Group()
         self.image = pygame.image.load('assets/G1.png',)
-        self.image = pygame.transform.scale(self.image, (300, 450))
+        self.image = pygame.transform.scale(self.image, (300, 300))
         self.rect = self.image.get_rect()
-        self.rect.x = 480
-        self.rect.y = 580
+        self.rect.x = 300
+        self.rect.y = 450
 
     def damage(self, amount):
         """

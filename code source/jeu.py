@@ -77,10 +77,10 @@ class Game:
         @param screen: Surface de l'écran du jeu.
         """
 
-        font_size = 36
+        font_size = 25
         font = pygame.font.Font("assets/animeace2_reg.ttf", font_size)
         score_text = font.render(f"Score : {self.score}", True, (255, 255, 255))
-        screen.blit(score_text, (200, 120))
+        screen.blit(score_text, (30, 20))
 
         screen.blit(self.player.image, self.player.rect)
         self.player.update_hp_bar(screen)

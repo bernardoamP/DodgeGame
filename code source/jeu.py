@@ -9,12 +9,14 @@
 """
 
 import pygame
+import sqlite3
 from joueur import Player
 from enemy import Enemy
 from database_utils import insert_score
 
 # Initialisation de Pygame
 pygame.init()
+
 
 class Game:
     """

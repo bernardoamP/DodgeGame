@@ -10,6 +10,7 @@
 """
 
 import pygame
+import sqlite3
 
 from jeu import Game
 from database_utils import create_score_table
@@ -96,5 +97,15 @@ while running:
                 game.start()
             elif quit_button_rect.collidepoint(event.pos):
                 running = False
+
+    for score in scores:
+        # Formater le score pour l'affichage
+        score_text = f"{score['player_name']}: {score['score']}"
+        # Créer une surface de texte à partir du score formaté
+        score_surface = font.render(score_text, True, (255, 255, 255))
+        # Dessiner la surface de texte sur l'écran
+        screen.blit(score_surface, (x, y))
+        # Augmenter la position Y pour afficher le prochain score plus bas
+        y += 40
 
 clock.tick(FPS)

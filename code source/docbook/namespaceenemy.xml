@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceenemy" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage enemy</title>
+<indexterm><primary>enemy</primary></indexterm>
+<simplesect>
+    <title>Structures de données    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classenemy_1_1_enemy">Enemy</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@file enemy.py
+@brief Ce fichier contient la classe Enemy qui représente les ennemis dans le jeu.
+
+@details
+- La classe Enemy gère les caractéristiques et le comportement des ennemis.
+- Elle gère les dégâts, les points de vie, la vitesse de déplacement et l&apos;apparence des ennemis.
+</computeroutput></literallayout> </para>
+</section>
+</section>

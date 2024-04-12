@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="fr">
+<title>Structures de données</title>
+Liste des structures de données avec une brève description :<link linkend="_classboule_1_1_boule">Boule</link><link linkend="_classenemy_1_1_enemy">Enemy</link><link linkend="_classjeu_1_1_game">Game</link><link linkend="_classjoueur_1_1_player">Player</link></section>

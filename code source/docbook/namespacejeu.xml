@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacejeu" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage jeu</title>
+<indexterm><primary>jeu</primary></indexterm>
+<simplesect>
+    <title>Structures de données    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classjeu_1_1_game">Game</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@file jeu.py
+@brief Ce fichier contient la classe Game qui gère le déroulement du jeu.
+
+@details
+- La classe Game initialise et gère les éléments du jeu, tels que les joueurs et les ennemis.
+- Elle contrôle le déroulement du jeu, la mise à jour de l&apos;écran et la gestion des collisions.
+- Elle gère également le score du joueur et l&apos;enregistrement des scores dans une base de données.
+</computeroutput></literallayout> </para>
+</section>
+</section>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceboule" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage boule</title>
+<indexterm><primary>boule</primary></indexterm>
+<simplesect>
+    <title>Structures de données    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classboule_1_1_boule">Boule</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@file boule.py
+@brief Ce fichier contient la classe Boule qui représente les projectiles lancés par le joueur.
+
+@details
+- La classe Boule gère le mouvement, la rotation et la collision des projectiles.
+</computeroutput></literallayout> </para>
+</section>
+</section>

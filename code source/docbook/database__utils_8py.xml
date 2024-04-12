@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_database__utils_8py" xml:lang="fr">
+<title>Référence du fichier database_utils.py</title>
+<indexterm><primary>database_utils.py</primary></indexterm>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacedatabase__utils">database_utils</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Fonctions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacedatabase__utils_1aaf03903a12e81f01da33f57d78b23128">create_score_table</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_namespacedatabase__utils_1aa056aa55e4ada908561b45f06c3f5306">insert_score</link> (player_name, score)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

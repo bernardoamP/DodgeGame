@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classjoueur_1_1_player" xml:lang="fr">
+<title>Référence de la classe Player</title>
+<indexterm><primary>Player</primary></indexterm>
+Graphe d&apos;héritage de Player:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjoueur_1_1_player__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Graphe de collaboration de Player:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjoueur_1_1_player__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a488560382dea5d52979658dea26ff42b">__init__</link> (self, <link linkend="_classjoueur_1_1_player_1ab587deac2ae34c126e6222afedb790ea">game</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1ae4c8afea65d026e11b4e6d5fa511f72f">damage</link> (self, amount)</para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a4cf71e176df04d978455202f893945d5">update_hp_bar</link> (self, surface)</para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1aa2c1cfbcb6044dab4509ddea7cf2d537">lance_boule</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a2f4d707bdc11bb0ffdc9a46e98af283d">move_right</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a0596f733a07f14112c11acb250cc9e25">move_left</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Champs de données    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1ab587deac2ae34c126e6222afedb790ea">game</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1ac6c542ca1a3ce98b5861a75d93b26976">hp</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1af8d1b87606670382db84c2cb5f5a34b5">max_hp</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a8dc3ea21fc6608c3cce34b10bc21c36f">attack</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a2ca31b7129762160f6896d50baaa9d4d">vitesse</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a56fd780431f560ef015fe509136d7075">all_boule</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1a42cb5f5737262947250c709931232c69">image</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjoueur_1_1_player_1aea8f6815d9a63491fc422c5572c6b3c3">rect</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@brief Classe représentant le personnage contrôlé par le joueur.
+
+@details
+- Le joueur a une quantité de points de vie, une vitesse de déplacement et une attaque définis.
+- Il peut lancer des boules pour attaquer les ennemis.
+- Sa position et sa barre de vie sont gérées par cette classe.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_classjoueur_1_1_player_1a488560382dea5d52979658dea26ff42b"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>__init__ ( self,  game)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Initialise les attributs du joueur.
+
+@param game: Instance de la classe Game à laquelle le joueur appartient.
+</computeroutput></literallayout> </para>
+Voici le graphe d&apos;appel pour cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjoueur_1_1_player_a488560382dea5d52979658dea26ff42b_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Voici le graphe des appelants de cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjoueur_1_1_player_a488560382dea5d52979658dea26ff42b_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_classjoueur_1_1_player_1ae4c8afea65d026e11b4e6d5fa511f72f"/><section>
+    <title>damage()</title>
+<indexterm><primary>damage</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>damage</secondary></indexterm>
+<para><computeroutput>damage ( self,  amount)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Inflige des dégâts au joueur.
+
+@param amount: Montant des dégâts à infliger.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjoueur_1_1_player_1aa2c1cfbcb6044dab4509ddea7cf2d537"/><section>
+    <title>lance_boule()</title>
+<indexterm><primary>lance_boule</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>lance_boule</secondary></indexterm>
+<para><computeroutput>lance_boule ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Lance une boule depuis le joueur.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjoueur_1_1_player_1a0596f733a07f14112c11acb250cc9e25"/><section>
+    <title>move_left()</title>
+<indexterm><primary>move_left</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>move_left</secondary></indexterm>
+<para><computeroutput>move_left ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Déplace le joueur vers la gauche.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjoueur_1_1_player_1a2f4d707bdc11bb0ffdc9a46e98af283d"/><section>
+    <title>move_right()</title>
+<indexterm><primary>move_right</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>move_right</secondary></indexterm>
+<para><computeroutput>move_right ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Déplace le joueur vers la droite.
+
+@details
+- Vérifie s&apos;il y a une collision avec les ennemis avant de déplacer le joueur.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjoueur_1_1_player_1a4cf71e176df04d978455202f893945d5"/><section>
+    <title>update_hp_bar()</title>
+<indexterm><primary>update_hp_bar</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>update_hp_bar</secondary></indexterm>
+<para><computeroutput>update_hp_bar ( self,  surface)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Met à jour la barre de vie du joueur et l&apos;affiche à l&apos;écran.
+
+@param surface: Surface de l&apos;écran du jeu où afficher la barre de vie.
+</computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Documentation des champs</title>
+<anchor xml:id="_classjoueur_1_1_player_1a56fd780431f560ef015fe509136d7075"/><section>
+    <title>all_boule</title>
+<indexterm><primary>all_boule</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>all_boule</secondary></indexterm>
+<para><computeroutput>all_boule</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1a8dc3ea21fc6608c3cce34b10bc21c36f"/><section>
+    <title>attack</title>
+<indexterm><primary>attack</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>attack</secondary></indexterm>
+<para><computeroutput>attack</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1ab587deac2ae34c126e6222afedb790ea"/><section>
+    <title>game</title>
+<indexterm><primary>game</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>game</secondary></indexterm>
+<para><computeroutput>game</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1ac6c542ca1a3ce98b5861a75d93b26976"/><section>
+    <title>hp</title>
+<indexterm><primary>hp</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>hp</secondary></indexterm>
+<para><computeroutput>hp</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1a42cb5f5737262947250c709931232c69"/><section>
+    <title>image</title>
+<indexterm><primary>image</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>image</secondary></indexterm>
+<para><computeroutput>image</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1af8d1b87606670382db84c2cb5f5a34b5"/><section>
+    <title>max_hp</title>
+<indexterm><primary>max_hp</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>max_hp</secondary></indexterm>
+<para><computeroutput>max_hp</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1aea8f6815d9a63491fc422c5572c6b3c3"/><section>
+    <title>rect</title>
+<indexterm><primary>rect</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>rect</secondary></indexterm>
+<para><computeroutput>rect</computeroutput></para></section>
+<anchor xml:id="_classjoueur_1_1_player_1a2ca31b7129762160f6896d50baaa9d4d"/><section>
+    <title>vitesse</title>
+<indexterm><primary>vitesse</primary><secondary>Player</secondary></indexterm>
+<indexterm><primary>Player</primary><secondary>vitesse</secondary></indexterm>
+<para><computeroutput>vitesse</computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+<link linkend="_joueur_8py">joueur.py</link></section>
+</section>

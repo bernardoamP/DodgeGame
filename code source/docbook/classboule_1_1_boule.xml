@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classboule_1_1_boule" xml:lang="fr">
+<title>Référence de la classe Boule</title>
+<indexterm><primary>Boule</primary></indexterm>
+Graphe d&apos;héritage de Boule:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Graphe de collaboration de Boule:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a2b25b221268d4f122d1fd3417cfe2cfe">__init__</link> (self, <link linkend="_classboule_1_1_boule_1a46afbb77ee4b53026dff7b4f65384dc4">player</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a523c040568930711d954eb31b3aebbeb">rotate</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a4d7cd1c2c34050e73a70d90207ed2a67">remove</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1ad2c75f29b98912613b489e09ff79d69b">move</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Champs de données    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a2ca31b7129762160f6896d50baaa9d4d">vitesse</link></para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a46afbb77ee4b53026dff7b4f65384dc4">player</link></para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a42cb5f5737262947250c709931232c69">image</link></para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1aea8f6815d9a63491fc422c5572c6b3c3">rect</link></para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1aa87ec2567eba946fe05cc64786efc06c">origin_image</link></para>
+</listitem>
+            <listitem><para><link linkend="_classboule_1_1_boule_1a45937af38b4f2f3950e1922a75ff7ab1">angle</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@brief Classe représentant les projectiles lancés par le joueur.
+
+@details
+- Les projectiles ont une vitesse, une image et une position définies.
+- Ils peuvent se déplacer, tourner et détecter les collisions avec les ennemis.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_classboule_1_1_boule_1a2b25b221268d4f122d1fd3417cfe2cfe"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>__init__ ( self,  player)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Initialise les attributs du projectile.
+
+@param player: Instance de la classe Player qui a lancé le projectile.
+</computeroutput></literallayout> </para>
+Voici le graphe d&apos;appel pour cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule_a2b25b221268d4f122d1fd3417cfe2cfe_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Voici le graphe des appelants de cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule_a2b25b221268d4f122d1fd3417cfe2cfe_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_classboule_1_1_boule_1ad2c75f29b98912613b489e09ff79d69b"/><section>
+    <title>move()</title>
+<indexterm><primary>move</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>move</secondary></indexterm>
+<para><computeroutput>move ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Déplace le projectile et gère les collisions avec les ennemis.
+
+@details
+- Déplace le projectile vers la droite à une vitesse donnée.
+- Fait tourner le projectile pendant son déplacement.
+- Supprime le projectile en cas de collision avec un ennemi ou s&apos;il dépasse les limites de l&apos;écran.
+</computeroutput></literallayout> </para>
+Voici le graphe d&apos;appel pour cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule_ad2c75f29b98912613b489e09ff79d69b_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classboule_1_1_boule_1a4d7cd1c2c34050e73a70d90207ed2a67"/><section>
+    <title>remove()</title>
+<indexterm><primary>remove</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>remove</secondary></indexterm>
+<para><computeroutput>remove ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Supprime le projectile du groupe de projectiles du joueur.
+</computeroutput></literallayout> </para>
+Voici le graphe des appelants de cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule_a4d7cd1c2c34050e73a70d90207ed2a67_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classboule_1_1_boule_1a523c040568930711d954eb31b3aebbeb"/><section>
+    <title>rotate()</title>
+<indexterm><primary>rotate</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>rotate</secondary></indexterm>
+<para><computeroutput>rotate ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Fait tourner l&apos;image du projectile.
+
+@details
+- Incrémente l&apos;angle de rotation et applique la transformation à l&apos;image du projectile.
+- Recentre le rectangle du projectile après la rotation.
+</computeroutput></literallayout> </para>
+Voici le graphe des appelants de cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classboule_1_1_boule_a523c040568930711d954eb31b3aebbeb_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Documentation des champs</title>
+<anchor xml:id="_classboule_1_1_boule_1a45937af38b4f2f3950e1922a75ff7ab1"/><section>
+    <title>angle</title>
+<indexterm><primary>angle</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>angle</secondary></indexterm>
+<para><computeroutput>angle</computeroutput></para></section>
+<anchor xml:id="_classboule_1_1_boule_1a42cb5f5737262947250c709931232c69"/><section>
+    <title>image</title>
+<indexterm><primary>image</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>image</secondary></indexterm>
+<para><computeroutput>image</computeroutput></para></section>
+<anchor xml:id="_classboule_1_1_boule_1aa87ec2567eba946fe05cc64786efc06c"/><section>
+    <title>origin_image</title>
+<indexterm><primary>origin_image</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>origin_image</secondary></indexterm>
+<para><computeroutput>origin_image</computeroutput></para></section>
+<anchor xml:id="_classboule_1_1_boule_1a46afbb77ee4b53026dff7b4f65384dc4"/><section>
+    <title>player</title>
+<indexterm><primary>player</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>player</secondary></indexterm>
+<para><computeroutput>player</computeroutput></para></section>
+<anchor xml:id="_classboule_1_1_boule_1aea8f6815d9a63491fc422c5572c6b3c3"/><section>
+    <title>rect</title>
+<indexterm><primary>rect</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>rect</secondary></indexterm>
+<para><computeroutput>rect</computeroutput></para></section>
+<anchor xml:id="_classboule_1_1_boule_1a2ca31b7129762160f6896d50baaa9d4d"/><section>
+    <title>vitesse</title>
+<indexterm><primary>vitesse</primary><secondary>Boule</secondary></indexterm>
+<indexterm><primary>Boule</primary><secondary>vitesse</secondary></indexterm>
+<para><computeroutput>vitesse</computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+<link linkend="_boule_8py">boule.py</link></section>
+</section>

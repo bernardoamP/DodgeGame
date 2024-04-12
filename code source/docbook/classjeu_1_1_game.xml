@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classjeu_1_1_game" xml:lang="fr">
+<title>Référence de la classe Game</title>
+<indexterm><primary>Game</primary></indexterm>
+Graphe de collaboration de Game:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjeu_1_1_game__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Fonctions membres publiques    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classjeu_1_1_game_1abdd362d5f799ad16b5d6700efe590290">__init__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1aeb3b30c60946a22761128cbd397add94">start</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1ae73b46d8b98684a08d483d726086f3c0">add_score</link> (self, points=10)</para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1abd3b770f359f17f093b6870ce91dd6d8">game_over</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a4e24a01c99220caca6a8fa67236675b8">update</link> (self, screen)</para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1ac0de08a4448e7688fea0ac34ac40157b">check_collision</link> (self, sprite, group)</para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a0f6bf606ccfcf9eda9d2713bfb4ca40d">spawn_enemy</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Champs de données    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a88fcf418f6ba2c7a3b88f2684bc841d8">is_playing</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1add410626d588ffe96499d72a49b07a37">all_players</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a46afbb77ee4b53026dff7b4f65384dc4">player</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a7d0982c6cc7cf603151350af9d540f71">all_enemy</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a9fa1482cd696e2f0c104e04a9d46a29d">score</link></para>
+</listitem>
+            <listitem><para><link linkend="_classjeu_1_1_game_1a4c5fbda272fa1ec9780c0c4d4ee7212a">pressed</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@brief Classe principale du jeu qui gère le déroulement du jeu.
+
+@details
+- Initialise les paramètres du jeu et les éléments de jeu tels que les joueurs et les ennemis.
+- Gère le déroulement du jeu, la mise à jour de l&apos;écran et la gestion des collisions.
+- Contrôle le score du joueur et l&apos;enregistrement des scores dans une base de données.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Documentation des constructeurs et destructeur</title>
+<anchor xml:id="_classjeu_1_1_game_1abdd362d5f799ad16b5d6700efe590290"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>__init__ ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Initialise les paramètres du jeu.
+</computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Documentation des fonctions membres</title>
+<anchor xml:id="_classjeu_1_1_game_1ae73b46d8b98684a08d483d726086f3c0"/><section>
+    <title>add_score()</title>
+<indexterm><primary>add_score</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>add_score</secondary></indexterm>
+<para><computeroutput>add_score ( self,  points = <computeroutput>10</computeroutput>
+)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Ajoute des points au score du joueur.
+
+@param points: Nombre de points à ajouter au score (par défaut 10).
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjeu_1_1_game_1ac0de08a4448e7688fea0ac34ac40157b"/><section>
+    <title>check_collision()</title>
+<indexterm><primary>check_collision</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>check_collision</secondary></indexterm>
+<para><computeroutput>check_collision ( self,  sprite,  group)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Vérifie les collisions entre un sprite et un groupe de sprites.
+
+@param sprite: Sprite à vérifier la collision.
+@param group: Groupe de sprites avec lesquels vérifier la collision.
+
+@return: Liste des sprites en collision avec le sprite spécifié.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjeu_1_1_game_1abd3b770f359f17f093b6870ce91dd6d8"/><section>
+    <title>game_over()</title>
+<indexterm><primary>game_over</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>game_over</secondary></indexterm>
+<para><computeroutput>game_over ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Gère la fin du jeu en réinitialisant les paramètres et en enregistrant le score.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classjeu_1_1_game_1a0f6bf606ccfcf9eda9d2713bfb4ca40d"/><section>
+    <title>spawn_enemy()</title>
+<indexterm><primary>spawn_enemy</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>spawn_enemy</secondary></indexterm>
+<para><computeroutput>spawn_enemy ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Génère un ennemi et l&apos;ajoute au groupe d&apos;ennemis.
+</computeroutput></literallayout> </para>
+Voici le graphe des appelants de cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjeu_1_1_game_a0f6bf606ccfcf9eda9d2713bfb4ca40d_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classjeu_1_1_game_1aeb3b30c60946a22761128cbd397add94"/><section>
+    <title>start()</title>
+<indexterm><primary>start</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>start ( self)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Démarre le jeu en initialisant les éléments de jeu.
+</computeroutput></literallayout> </para>
+Voici le graphe d&apos;appel pour cette fonction :<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classjeu_1_1_game_aeb3b30c60946a22761128cbd397add94_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classjeu_1_1_game_1a4e24a01c99220caca6a8fa67236675b8"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update ( self,  screen)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Met à jour les éléments du jeu et affiche l&apos;écran de jeu.
+
+@param screen: Surface de l&apos;écran du jeu.
+</computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Documentation des champs</title>
+<anchor xml:id="_classjeu_1_1_game_1a7d0982c6cc7cf603151350af9d540f71"/><section>
+    <title>all_enemy</title>
+<indexterm><primary>all_enemy</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>all_enemy</secondary></indexterm>
+<para><computeroutput>all_enemy</computeroutput></para></section>
+<anchor xml:id="_classjeu_1_1_game_1add410626d588ffe96499d72a49b07a37"/><section>
+    <title>all_players</title>
+<indexterm><primary>all_players</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>all_players</secondary></indexterm>
+<para><computeroutput>all_players</computeroutput></para></section>
+<anchor xml:id="_classjeu_1_1_game_1a88fcf418f6ba2c7a3b88f2684bc841d8"/><section>
+    <title>is_playing</title>
+<indexterm><primary>is_playing</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>is_playing</secondary></indexterm>
+<para><computeroutput>is_playing</computeroutput></para></section>
+<anchor xml:id="_classjeu_1_1_game_1a46afbb77ee4b53026dff7b4f65384dc4"/><section>
+    <title>player</title>
+<indexterm><primary>player</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>player</secondary></indexterm>
+<para><computeroutput>player</computeroutput></para></section>
+<anchor xml:id="_classjeu_1_1_game_1a4c5fbda272fa1ec9780c0c4d4ee7212a"/><section>
+    <title>pressed</title>
+<indexterm><primary>pressed</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>pressed</secondary></indexterm>
+<para><computeroutput>pressed</computeroutput></para></section>
+<anchor xml:id="_classjeu_1_1_game_1a9fa1482cd696e2f0c104e04a9d46a29d"/><section>
+    <title>score</title>
+<indexterm><primary>score</primary><secondary>Game</secondary></indexterm>
+<indexterm><primary>Game</primary><secondary>score</secondary></indexterm>
+<para><computeroutput>score</computeroutput></para></section>
+<para>
+La documentation de cette classe a été générée à partir du fichier suivant :</para>
+<link linkend="_jeu_8py">jeu.py</link></section>
+</section>

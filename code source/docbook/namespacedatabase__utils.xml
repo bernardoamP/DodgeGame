@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacedatabase__utils" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage database_utils</title>
+<indexterm><primary>database_utils</primary></indexterm>
+<simplesect>
+    <title>Fonctions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacedatabase__utils_1aaf03903a12e81f01da33f57d78b23128">create_score_table</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_namespacedatabase__utils_1aa056aa55e4ada908561b45f06c3f5306">insert_score</link> (player_name, score)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@file database_utils.py
+@brief Ce fichier contient des fonctions pour gérer une base de données SQLite pour stocker les scores des joueurs.
+
+@details
+- Les fonctions permettent de créer une table pour stocker les scores et d&apos;insérer de nouveaux scores dans la base de données.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Documentation des fonctions</title>
+<anchor xml:id="_namespacedatabase__utils_1aaf03903a12e81f01da33f57d78b23128"/><section>
+    <title>create_score_table()</title>
+<indexterm><primary>create_score_table</primary><secondary>database_utils</secondary></indexterm>
+<indexterm><primary>database_utils</primary><secondary>create_score_table</secondary></indexterm>
+<para><computeroutput>create_score_table ( )</computeroutput></para>
+<para><literallayout><computeroutput>@brief Crée la table des scores dans la base de données.
+
+@details
+- Cette fonction se connecte à la base de données et exécute une requête SQL pour créer la table des scores si elle n&apos;existe pas déjà.
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespacedatabase__utils_1aa056aa55e4ada908561b45f06c3f5306"/><section>
+    <title>insert_score()</title>
+<indexterm><primary>insert_score</primary><secondary>database_utils</secondary></indexterm>
+<indexterm><primary>database_utils</primary><secondary>insert_score</secondary></indexterm>
+<para><computeroutput>insert_score ( player_name,  score)</computeroutput></para>
+<para><literallayout><computeroutput>@brief Insère un nouveau score dans la table des scores.
+
+@param player_name: Nom du joueur.
+@param score: Score du joueur à insérer.
+
+@details
+- Cette fonction se connecte à la base de données et insère un nouveau score dans la table des scores avec le nom du joueur et son score.
+</computeroutput></literallayout> </para>
+</section>
+</section>
+</section>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="fr">
+    <info>
+    <title>CampusImmat</title>
+    </info>
+<chapter>
+    <title>Documentation des espaces de nommage</title>
+<xi:include href="namespaceboule.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacedatabase__utils.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceenemy.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacejeu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacejoueur.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemain.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Documentation des structures de données</title>
+    <xi:include href="classboule_1_1_boule.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classenemy_1_1_enemy.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classjeu_1_1_game.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classjoueur_1_1_player.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Documentation des fichiers</title>
+    <xi:include href="boule_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="database__utils_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enemy_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="jeu_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="joueur_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="main_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

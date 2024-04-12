@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_boule_8py" xml:lang="fr">
+<title>Référence du fichier boule.py</title>
+<indexterm><primary>boule.py</primary></indexterm>
+<simplesect>
+    <title>Structures de données    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classboule_1_1_boule">Boule</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceboule">boule</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

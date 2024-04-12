@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacejoueur" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage joueur</title>
+<indexterm><primary>joueur</primary></indexterm>
+<simplesect>
+    <title>Structures de données    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classjoueur_1_1_player">Player</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@file joueur.py
+@brief Ce fichier contient la classe Player qui représente le personnage contrôlé par le joueur.
+
+@details
+- La classe Player gère les actions du joueur telles que le mouvement, les attaques et les dégâts subis.
+- Elle contrôle également la barre de vie du joueur et l&apos;affichage à l&apos;écran.
+</computeroutput></literallayout> </para>
+</section>
+</section>

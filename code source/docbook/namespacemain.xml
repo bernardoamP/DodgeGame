@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemain" xml:lang="fr">
+<title>Référence de l&apos;espace de nommage main</title>
+<indexterm><primary>main</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemain_1a72bba37476e63c27f023823f17619987">screen</link> = pygame.display.set_mode((1920, 1080))</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1a9239939b64679abad9d0ab88ba448083">background</link> = pygame.image.load(&apos;assets/wallhaven-l358l2.png&apos;)</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacemain_1a957397243aed4c33631aea7417766e62">new_width</link> = 1920</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacemain_1a299204d72d46124ed4cb1b3da286d258">new_height</link> = 1080</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1af9545f373f8b570443322c01925134e6">banner</link> = pygame.image.load(&apos;assets/banner.png&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1a7c82d2cce55be9da29180100fbafca61">banner_rect</link> = banner.get_rect()</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1a9336ebf25087d91c818ee6e9ec29f8c1">x</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1a2fb1c5cf58867b5bbc9a1b145a86f3a0">y</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1a8af9563c53e8f9140cd1ea1d887a6b26">play_button</link> = pygame.image.load(&apos;assets/button.png&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1a0fe591b5043b20b98a487601cc2e570d">play_button_rect</link> = play_button.get_rect()</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemain_1ab587deac2ae34c126e6222afedb790ea">game</link> = <link linkend="_classjeu_1_1_game">Game</link>()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemain_1a36f7b6be7108281af77939ceaec42fd6">running</link> = True</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Description détaillée</title>
+
+<para><literallayout><computeroutput>@file main.py
+@brief Ce script initialise et lance un jeu de dodge en utilisant Pygame.
+
+@details
+- Le jeu affiche un écran titre avec un bouton de lecture.
+- Une fois que le bouton de lecture est cliqué, le jeu démarre.
+- Le joueur peut contrôler un personnage pour esquiver les balles qui tombent depuis le haut de l&apos;écran.
+- Le score du joueur augmente à mesure qu&apos;il survit plus longtemps.
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Documentation des variables</title>
+<anchor xml:id="_namespacemain_1a9239939b64679abad9d0ab88ba448083"/><section>
+    <title>background</title>
+<indexterm><primary>background</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>background</secondary></indexterm>
+<para><computeroutput>background = pygame.image.load(&apos;assets/wallhaven-l358l2.png&apos;)</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1af9545f373f8b570443322c01925134e6"/><section>
+    <title>banner</title>
+<indexterm><primary>banner</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>banner</secondary></indexterm>
+<para><computeroutput>banner = pygame.image.load(&apos;assets/banner.png&apos;)</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a7c82d2cce55be9da29180100fbafca61"/><section>
+    <title>banner_rect</title>
+<indexterm><primary>banner_rect</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>banner_rect</secondary></indexterm>
+<para><computeroutput>banner_rect = banner.get_rect()</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1ab587deac2ae34c126e6222afedb790ea"/><section>
+    <title>game</title>
+<indexterm><primary>game</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>game</secondary></indexterm>
+<para><computeroutput>game = <link linkend="_classjeu_1_1_game">Game</link>()</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a299204d72d46124ed4cb1b3da286d258"/><section>
+    <title>new_height</title>
+<indexterm><primary>new_height</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>new_height</secondary></indexterm>
+<para><computeroutput>new_height = 1080</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a957397243aed4c33631aea7417766e62"/><section>
+    <title>new_width</title>
+<indexterm><primary>new_width</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>new_width</secondary></indexterm>
+<para><computeroutput>new_width = 1920</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a8af9563c53e8f9140cd1ea1d887a6b26"/><section>
+    <title>play_button</title>
+<indexterm><primary>play_button</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>play_button</secondary></indexterm>
+<para><computeroutput>play_button = pygame.image.load(&apos;assets/button.png&apos;)</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a0fe591b5043b20b98a487601cc2e570d"/><section>
+    <title>play_button_rect</title>
+<indexterm><primary>play_button_rect</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>play_button_rect</secondary></indexterm>
+<para><computeroutput>play_button_rect = play_button.get_rect()</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a36f7b6be7108281af77939ceaec42fd6"/><section>
+    <title>running</title>
+<indexterm><primary>running</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>running</secondary></indexterm>
+<para><computeroutput>bool running = True</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a72bba37476e63c27f023823f17619987"/><section>
+    <title>screen</title>
+<indexterm><primary>screen</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>screen</secondary></indexterm>
+<para><computeroutput>screen = pygame.display.set_mode((1920, 1080))</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a9336ebf25087d91c818ee6e9ec29f8c1"/><section>
+    <title>x</title>
+<indexterm><primary>x</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>x</secondary></indexterm>
+<para><computeroutput>x</computeroutput></para></section>
+<anchor xml:id="_namespacemain_1a2fb1c5cf58867b5bbc9a1b145a86f3a0"/><section>
+    <title>y</title>
+<indexterm><primary>y</primary><secondary>main</secondary></indexterm>
+<indexterm><primary>main</primary><secondary>y</secondary></indexterm>
+<para><computeroutput>y</computeroutput></para></section>
+</section>
+</section>

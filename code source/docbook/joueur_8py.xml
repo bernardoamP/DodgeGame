@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_joueur_8py" xml:lang="fr">
+<title>Référence du fichier joueur.py</title>
+<indexterm><primary>joueur.py</primary></indexterm>
+<simplesect>
+    <title>Structures de données    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classjoueur_1_1_player">Player</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Espaces de nommage    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacejoueur">joueur</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
